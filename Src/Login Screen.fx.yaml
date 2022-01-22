@@ -1,0 +1,78 @@
+"'Login Screen' As screen":
+
+    Label20 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =64
+        Size: =25
+        Text: ="WELCOME!"
+        Width: =239
+        X: =564
+        Y: =172
+        ZIndex: =1
+
+    TextInput3 As text:
+        Default: =""
+        Height: =59
+        HintText: ="Email"
+        X: =523
+        Y: =285
+        ZIndex: =3
+
+    TextInput3_1 As text:
+        Default: =""
+        Height: =59
+        HintText: ="Password"
+        X: =523
+        Y: =369
+        ZIndex: =4
+
+    Button7 As button:
+        Height: =55
+        OnSelect: =Navigate(Calendar_1, ScreenTransition.Fade)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Text: ="Login"
+        Width: =181
+        X: =593
+        Y: =457
+        ZIndex: =5
+
+    Button7_1 As button:
+        BorderThickness: =0
+        Color: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Normal
+        Height: =55
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Text: ="Register here."
+        Underline: =true
+        Width: =320
+        X: =523
+        Y: =552
+        ZIndex: =6
+
+    Label21 As label:
+        Align: =Align.Center
+        Text: ="Don't have an accout?"
+        Width: =320
+        X: =523
+        Y: =527
+        ZIndex: =7
+
+    Label22 As label:
+        Height: =56
+        Size: =10
+        Text: ="*By logging in or signing up you are agreeing to the terms and licences."
+        VerticalAlign: =VerticalAlign.Top
+        Width: =320
+        X: =523
+        Y: =624
+        ZIndex: =8
+

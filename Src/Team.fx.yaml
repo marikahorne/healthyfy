@@ -1,0 +1,457 @@
+Team As screen:
+
+    Rectangle6_6 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =649
+        Width: =4
+        X: =401
+        Y: =93
+        ZIndex: =1
+
+    Image1_7 As image:
+        Height: =150
+        Image: =Daniel
+        RadiusBottomLeft: |
+            =Image1_7.Height
+        RadiusBottomRight: =Image1_7.Height
+        RadiusTopLeft: =Image1_7.Height
+        RadiusTopRight: =Image1_7.Height
+        Width: =150
+        X: =154
+        Y: =223
+        ZIndex: =2
+
+    Image1_8 As image:
+        Image: =Lena
+        RadiusBottomLeft: |
+            =Image1_8.Height
+        RadiusBottomRight: =Image1_8.Height
+        RadiusTopLeft: =Image1_8.Height
+        RadiusTopRight: =Image1_8.Height
+        X: =557
+        Y: =153
+        ZIndex: =3
+
+    Image1_9 As image:
+        Image: =Emma
+        RadiusBottomLeft: |
+            =Image1_9.Height
+        RadiusBottomRight: =Image1_9.Height
+        RadiusTopLeft: =Image1_9.Height
+        RadiusTopRight: =Image1_9.Height
+        X: =750
+        Y: =153
+        ZIndex: =4
+
+    Image1_10 As image:
+        Image: =Lennart
+        RadiusBottomLeft: |
+            =Image1_10.Height
+        RadiusBottomRight: =Image1_10.Height
+        RadiusTopLeft: =Image1_10.Height
+        RadiusTopRight: =Image1_10.Height
+        X: =943
+        Y: =153
+        ZIndex: =5
+
+    Image1_11 As image:
+        Image: =Manuela
+        RadiusBottomLeft: |
+            =Image1_11.Height
+        RadiusBottomRight: =Image1_11.Height
+        RadiusTopLeft: =Image1_11.Height
+        RadiusTopRight: =Image1_11.Height
+        X: =1136
+        Y: =153
+        ZIndex: =6
+
+    Image1_12 As image:
+        Image: =Maria
+        RadiusBottomLeft: |
+            =Image1_12.Height
+        RadiusBottomRight: =Image1_12.Height
+        RadiusTopLeft: =Image1_12.Height
+        RadiusTopRight: =Image1_12.Height
+        X: =557
+        Y: =403
+        ZIndex: =7
+
+    Image1_13 As image:
+        Image: =Peter
+        RadiusBottomLeft: |
+            =Image1_13.Height
+        RadiusBottomRight: =Image1_13.Height
+        RadiusTopLeft: =Image1_13.Height
+        RadiusTopRight: =Image1_13.Height
+        X: =750
+        Y: =403
+        ZIndex: =8
+
+    Image1_14 As image:
+        Image: =Theresa
+        RadiusBottomLeft: |
+            =Image1_14.Height
+        RadiusBottomRight: =Image1_14.Height
+        RadiusTopLeft: =Image1_14.Height
+        RadiusTopRight: =Image1_14.Height
+        X: =943
+        Y: =403
+        ZIndex: =9
+
+    Image1_15 As image:
+        Image: =Max
+        RadiusBottomLeft: |
+            =Image1_15.Height
+        RadiusBottomRight: =Image1_15.Height
+        RadiusTopLeft: =Image1_15.Height
+        RadiusTopRight: =Image1_15.Height
+        X: =1136
+        Y: =403
+        ZIndex: =10
+
+    Label10 As label:
+        Align: =Align.Center
+        Height: =36
+        Text: |-
+            ="Daniel Sturm
+            "
+        X: =154
+        Y: =374
+        ZIndex: =11
+
+    Label10_1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =12
+        Text: |-
+            ="Chief Neurologist
+            09234771235
+            d.sturm@mri.de"
+        VerticalAlign: =VerticalAlign.Top
+        X: =154
+        Y: =410
+        ZIndex: =12
+
+    Label3_2 As label:
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: ="Neurology Department"
+        Width: =300
+        X: =117
+        Y: =21
+        ZIndex: =13
+
+    Label10_10 As label:
+        Align: =Align.Center
+        Height: =36
+        Size: =11
+        Text: ="Maria Schwarz"
+        Width: =129
+        X: =542
+        Y: =503
+        ZIndex: =14
+
+    Label10_11 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Nurse
+            09234771235
+            m.schwarz@mri.de"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =169
+        X: =522
+        Y: =539
+        ZIndex: =15
+
+    Label10_12 As label:
+        Align: =Align.Center
+        Height: =36
+        Size: =11
+        Text: ="Peter Mayer"
+        Width: =100
+        X: =750
+        Y: =503
+        ZIndex: =16
+
+    Label10_13 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Nurse
+            09234771235
+            p.mayer@mri.de"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =121
+        X: =739
+        Y: =539
+        ZIndex: =17
+
+    Label10_14 As label:
+        Align: =Align.Center
+        Height: =36
+        Size: =11
+        Text: ="Theresa Hohn"
+        Width: =126
+        X: =933
+        Y: =503
+        ZIndex: =18
+
+    Label10_15 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Nurse
+            09234771235
+            t.hohn@mri.de"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =100
+        X: =943
+        Y: =539
+        ZIndex: =19
+
+    Label10_16 As label:
+        Align: =Align.Center
+        Height: =36
+        Size: =11
+        Text: |-
+            ="Max Weber
+            "
+        Width: =100
+        X: =1136
+        Y: =503
+        ZIndex: =20
+
+    Label10_17 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Nurse
+            09234771235
+            m.weber@mri.de"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =126
+        X: =1124
+        Y: =539
+        ZIndex: =21
+
+    Label10_18 As label:
+        Align: =Align.Center
+        Height: =35
+        Size: =11
+        Text: ="Lena Schmidt"
+        Width: =116
+        X: =549
+        Y: =254
+        ZIndex: =22
+
+    Label10_19 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Chief Nurse
+            09234771235
+            l.schmidt@mri.de"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =119
+        X: =547
+        Y: =294
+        ZIndex: =23
+
+    Label10_20 As label:
+        Align: =Align.Center
+        Height: =36
+        Size: =11
+        Text: ="Emma Schumann"
+        Width: =143
+        X: =728
+        Y: =253
+        ZIndex: =24
+
+    Label10_21 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Physician
+            09234771235
+            e.schumann@mri.de"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =138
+        X: =731
+        Y: =288
+        ZIndex: =25
+
+    Label10_22 As label:
+        Align: =Align.Center
+        Height: =36
+        Size: =11
+        Text: ="Lennard Winkler"
+        Width: =127
+        X: =929
+        Y: =253
+        ZIndex: =26
+
+    Label10_23 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Physician
+            09234771235
+            l.winkler@mri.de"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =127
+        X: =929
+        Y: =289
+        ZIndex: =27
+
+    Label10_24 As label:
+        Align: =Align.Center
+        Height: =36
+        Size: =11
+        Text: ="Manuela Huber"
+        Width: =124
+        X: =1124
+        Y: =253
+        ZIndex: =28
+
+    Label10_25 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Nurse
+            09234771235
+            m.huber@mri.de"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =112
+        X: =1130
+        Y: =288
+        ZIndex: =29
+
+    Rectangle1_21 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =768
+        Width: =75
+        ZIndex: =30
+
+    Icon1_18 As icon.Hamburger:
+        Height: =40
+        Icon: =Icon.Hamburger
+        Width: =40
+        X: =17
+        Y: =21
+        ZIndex: =31
+
+    Icon2_18 As icon.CalendarBlank:
+        Height: =40
+        Icon: =Icon.CalendarBlank
+        OnSelect: =Navigate(Calendar_1, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =99
+        ZIndex: =32
+
+    Icon6_18 As icon.Leave:
+        Height: =40
+        Icon: =Icon.Leave
+        OnSelect: =Navigate('Login Screen', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =709
+        ZIndex: =33
+
+    Icon3_20 As icon.Person:
+        Height: =40
+        Icon: =Icon.Person
+        OnSelect: =Navigate(Profile, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =398
+        ZIndex: =34
+
+    Icon4_18 As icon.Phone:
+        Height: =40
+        Icon: =Icon.Message
+        OnSelect: =Navigate('Group Chat', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =334
+        ZIndex: =35
+
+    Rectangle2_20 As rectangle:
+        Fill: =RGBA(166, 166, 166, 1)
+        Height: =75
+        Width: =75
+        Y: =231
+        ZIndex: =36
+
+    Icon27_12 As icon.LevelsLayersItems:
+        Height: =40
+        Icon: =Icon.LevelsLayersItems
+        OnSelect: =Navigate('Dashboard Roles', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =472
+        ZIndex: =37
+
+    Icon29_8 As icon.DockCheckProperties:
+        Height: =40
+        Icon: =Icon.DockCheckProperties
+        OnSelect: =Navigate('Planner Shifts Empty', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =553
+        ZIndex: =38
+
+    Icon5_18 As icon.Sync:
+        Height: =40
+        Icon: =Icon.Sync
+        OnSelect: =Navigate('Change Request', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =172
+        ZIndex: =39
+
+    Icon18_16 As icon.People:
+        Height: =40
+        Icon: =Icon.People
+        OnSelect: =Navigate(Team, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =248
+        ZIndex: =40
+
+    Icon1_32 As icon.CancelBadge:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Icon: =Icon.Lock
+        Width: =20
+        X: =55
+        Y: =506
+        ZIndex: =41
+
+    Icon1_33 As icon.CancelBadge:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Icon: =Icon.Lock
+        Width: =20
+        X: =55
+        Y: =590
+        ZIndex: =42
+

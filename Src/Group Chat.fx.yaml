@@ -1,0 +1,463 @@
+"'Group Chat' As screen":
+
+    Rectangle1_13 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =61
+        Width: =689
+        X: =100
+        Y: =687
+        ZIndex: =1
+
+    Rectangle1_9 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =728
+        Width: =689
+        X: =100
+        Y: =20
+        ZIndex: =2
+
+    Rectangle1_8 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =61
+        Width: =689
+        X: =100
+        Y: =20
+        ZIndex: =3
+
+    Rectangle8 As rectangle:
+        Fill: =RGBA(238, 204, 204, 1)
+        Width: =467
+        X: =870
+        Y: =20
+        ZIndex: =4
+
+    Rectangle6_7 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =728
+        Width: =4
+        X: =825
+        Y: =20
+        ZIndex: =5
+
+    Icon19 As icon.Send:
+        Height: =61
+        Icon: =Icon.Send
+        Width: =50
+        X: =736
+        Y: =687
+        ZIndex: =6
+
+    Icon21 As icon.Warning:
+        Color: =RGBA(168, 0, 0, 1)
+        Icon: =Icon.Warning
+        Width: =79
+        X: =878
+        Y: =38
+        ZIndex: =7
+
+    Label11 As label:
+        Height: =99
+        Text: ="You should NEVER use this chat to write or receive any type of patient information. You agreed to the terms of use when signing up for this application."
+        VerticalAlign: =VerticalAlign.Top
+        Width: =384
+        X: =953
+        Y: =21
+        ZIndex: =8
+
+    Button3_1 As button:
+        BorderThickness: =0
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =621
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Text: =""
+        Width: =467
+        X: =870
+        Y: =128
+        ZIndex: =9
+
+    Label12 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =16
+        Text: ="Some suggestions to use the chat"
+        Width: =440
+        X: =897
+        Y: =158
+        ZIndex: =10
+
+    Icon23 As icon.Signal:
+        Height: =75
+        Icon: =Icon.Signal
+        Width: =40
+        X: =897
+        Y: =241
+        ZIndex: =11
+
+    Label13 As label:
+        Height: =75
+        Text: ="Ask for help on your open to dos "
+        Width: =353
+        X: =953
+        Y: =241
+        ZIndex: =12
+
+    Icon24 As icon.LikeDislike:
+        Height: =75
+        Icon: =Icon.LikeDislike
+        Width: =40
+        X: =897
+        Y: =316
+        ZIndex: =13
+
+    Label13_1 As label:
+        Height: =75
+        Text: ="Share your improvement ideas"
+        Width: =353
+        X: =953
+        Y: =316
+        ZIndex: =14
+
+    Icon25 As icon.ForkKnife:
+        Height: =75
+        Icon: =Icon.ForkKnife
+        Width: =40
+        X: =897
+        Y: =391
+        ZIndex: =15
+
+    Label13_2 As label:
+        Height: =75
+        Text: ="Connect with your colleagues for a break"
+        Width: =353
+        X: =957
+        Y: =391
+        ZIndex: =16
+
+    Icon20 As icon.Message:
+        Height: =75
+        Icon: =Icon.Message
+        Width: =40
+        X: =897
+        Y: =466
+        ZIndex: =17
+
+    Label13_3 As label:
+        Height: =75
+        Text: ="Ask about possible shift changes"
+        Width: =353
+        X: =957
+        Y: =466
+        ZIndex: =18
+
+    Icon26 As icon.Waypoint:
+        Height: =75
+        Icon: =Icon.Waypoint
+        Width: =40
+        X: =897
+        Y: =541
+        ZIndex: =19
+
+    Label13_4 As label:
+        Height: =75
+        Text: ="Share your location with others"
+        Width: =353
+        X: =957
+        Y: =541
+        ZIndex: =20
+
+    TextInput1_2 As text:
+        Color: =RGBA(166, 166, 166, 1)
+        Default: =""
+        Height: =50
+        HintText: ="Type your message here"
+        Width: =512
+        X: =212
+        Y: =692
+        ZIndex: =21
+
+    Icon26_1 As icon.Waypoint:
+        Height: =40
+        Icon: =Icon.Waypoint
+        Width: =40
+        X: =112
+        Y: =697
+        ZIndex: =22
+
+    Rectangle9 As rectangle:
+        BorderColor: =RGBA(241, 244, 249, 1)
+        BorderThickness: =1
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =113
+        Width: =393
+        X: =191
+        Y: =109
+        ZIndex: =23
+
+    Label3_3 As label:
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: ="Neurology Chat"
+        Width: =300
+        X: =104
+        Y: =31
+        ZIndex: =24
+
+    Image1_16 As image:
+        Height: =50
+        Image: =Daniel
+        RadiusBottomLeft: |
+            =Image1_16.Height
+        RadiusBottomRight: =Image1_16.Height
+        RadiusTopLeft: =Image1_16.Height
+        RadiusTopRight: =Image1_16.Height
+        Width: =50
+        X: =112
+        Y: =109
+        ZIndex: =25
+
+    Image1_17 As image:
+        Height: =50
+        Image: =Lena
+        RadiusBottomLeft: |
+            =Image1_17.Height
+        RadiusBottomRight: =Image1_17.Height
+        RadiusTopLeft: =Image1_17.Height
+        RadiusTopRight: =Image1_17.Height
+        Width: =50
+        X: =727
+        Y: =243
+        ZIndex: =26
+
+    Rectangle9_1 As rectangle:
+        BorderColor: =RGBA(204, 208, 225, 1)
+        BorderThickness: =1
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =113
+        Width: =393
+        X: =311
+        Y: =243
+        ZIndex: =27
+
+    Label14 As label:
+        FontWeight: =FontWeight.Semibold
+        Size: =11
+        Text: ="Daniel Sturm"
+        Width: =139
+        X: =202
+        Y: =109
+        ZIndex: =28
+
+    Label16 As label:
+        Height: =67
+        Text: ="Hey Sofia, welcome to the team! We are having lunch together at 1pm, care to join?"
+        Width: =381
+        X: =202
+        Y: =145
+        ZIndex: =29
+
+    Label14_1 As label:
+        Align: =Align.Right
+        FontWeight: =FontWeight.Semibold
+        Size: =11
+        Text: ="Lena Schmidt"
+        Width: =139
+        X: =559
+        Y: =243
+        ZIndex: =30
+
+    Label16_1 As label:
+        Height: =55
+        Text: ="Hi Daniel, thank you! I would love to, where are we meeting? "
+        Width: =381
+        X: =323
+        Y: =279
+        ZIndex: =31
+
+    Label4_12 As label:
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =32
+        Size: =10
+        Text: ="Daniel is typing ... "
+        Width: =400
+        X: =217
+        Y: =655
+        ZIndex: =32
+
+    Icon28_1 As icon.CheckBadge:
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =15
+        Icon: =Icon.CheckBadge
+        Width: =15
+        X: =673
+        Y: =334
+        ZIndex: =33
+
+    Icon28 As icon.CheckBadge:
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =15
+        Icon: =Icon.CheckBadge
+        Width: =15
+        X: =682
+        Y: =334
+        ZIndex: =34
+
+    Icon31 As icon.ThumbsUpFilled:
+        Height: =30
+        Icon: =Icon.ThumbsUpFilled
+        Width: =20
+        X: =555
+        Y: =94
+        ZIndex: =35
+
+    Icon33 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =20
+        Icon: =Icon.Add
+        Width: =20
+        X: =725
+        Y: =51
+        ZIndex: =36
+
+    Label17 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Semibold
+        Text: ="9"
+        Width: =27
+        X: =749
+        Y: =31
+        ZIndex: =37
+
+    Icon18_5 As icon.People:
+        Height: =40
+        Icon: =Icon.People
+        Width: =40
+        X: =703
+        Y: =30
+        ZIndex: =38
+
+    Icon41 As icon.EmojiSmile:
+        Height: =40
+        Icon: =Icon.EmojiSmile
+        Width: =40
+        X: =157
+        Y: =697
+        ZIndex: =39
+
+    Rectangle1_22 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =768
+        Width: =75
+        ZIndex: =40
+
+    Icon1_19 As icon.Hamburger:
+        Height: =40
+        Icon: =Icon.Hamburger
+        Width: =40
+        X: =17
+        Y: =21
+        ZIndex: =41
+
+    Icon2_19 As icon.CalendarBlank:
+        Height: =40
+        Icon: =Icon.CalendarBlank
+        OnSelect: =Navigate(Calendar_1, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =99
+        ZIndex: =42
+
+    Icon6_19 As icon.Leave:
+        Height: =40
+        Icon: =Icon.Leave
+        OnSelect: =Navigate('Login Screen', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =709
+        ZIndex: =43
+
+    Icon3_21 As icon.Person:
+        Height: =40
+        Icon: =Icon.Person
+        OnSelect: =Navigate(Profile, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =398
+        ZIndex: =44
+
+    Rectangle2_21 As rectangle:
+        Fill: =RGBA(166, 166, 166, 1)
+        Height: =75
+        Width: =75
+        Y: =305
+        ZIndex: =45
+
+    Icon27_13 As icon.LevelsLayersItems:
+        Height: =40
+        Icon: =Icon.LevelsLayersItems
+        OnSelect: =Navigate('Dashboard Roles', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =472
+        ZIndex: =46
+
+    Icon29_9 As icon.DockCheckProperties:
+        Height: =40
+        Icon: =Icon.DockCheckProperties
+        OnSelect: =Navigate('Planner Shifts Empty', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =553
+        ZIndex: =47
+
+    Icon5_19 As icon.Sync:
+        Height: =40
+        Icon: =Icon.Sync
+        OnSelect: =Navigate('Change Request', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =172
+        ZIndex: =48
+
+    Icon18_17 As icon.People:
+        Height: =40
+        Icon: =Icon.People
+        OnSelect: =Navigate(Team, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =248
+        ZIndex: =49
+
+    Icon4_19 As icon.Phone:
+        Height: =40
+        Icon: =Icon.Message
+        OnSelect: =Navigate('Group Chat', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =323
+        ZIndex: =50
+
+    Icon1_12 As icon.CancelBadge:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Icon: =Icon.Lock
+        Width: =20
+        X: =55
+        Y: =506
+        ZIndex: =51
+
+    Icon1_13 As icon.CancelBadge:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Icon: =Icon.Lock
+        Width: =20
+        X: =55
+        Y: =590
+        ZIndex: =52
+

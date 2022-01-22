@@ -1,0 +1,1205 @@
+Calendar_1 As screen:
+
+    Rectangle4_1 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =675
+        Width: =1291
+        X: =75
+        Y: =93
+        ZIndex: =1
+
+    Rectangle3_237 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Width: =280
+        X: =75
+        Y: =668
+        ZIndex: =2
+
+    Image1_37 As image:
+        Height: =50
+        Image: =Maria
+        RadiusBottomLeft: |
+            =Image1_37.Height
+        RadiusBottomRight: =Image1_37.Height
+        RadiusTopLeft: =Image1_37.Height
+        RadiusTopRight: =Image1_37.Height
+        Width: =50
+        X: =102
+        Y: =693
+        ZIndex: =3
+
+    Rectangle3_235 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Width: =280
+        X: =75
+        Y: =568
+        ZIndex: =4
+
+    Image1_36 As image:
+        Height: =50
+        Image: =Manuela
+        RadiusBottomLeft: |
+            =Image1_36.Height
+        RadiusBottomRight: =Image1_36.Height
+        RadiusTopLeft: =Image1_36.Height
+        RadiusTopRight: =Image1_36.Height
+        Width: =50
+        X: =102
+        Y: =593
+        ZIndex: =5
+
+    Rectangle3_234 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Width: =280
+        X: =75
+        Y: =468
+        ZIndex: =6
+
+    Image1_35 As image:
+        Height: =50
+        Image: =Lennart
+        RadiusBottomLeft: |
+            =Image1_35.Height
+        RadiusBottomRight: =Image1_35.Height
+        RadiusTopLeft: =Image1_35.Height
+        RadiusTopRight: =Image1_35.Height
+        Width: =50
+        X: =102
+        Y: =493
+        ZIndex: =7
+
+    Rectangle3_232 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Width: =280
+        X: =75
+        Y: =368
+        ZIndex: =8
+
+    Image1_34 As image:
+        Height: =50
+        Image: =Emma
+        RadiusBottomLeft: |
+            =Image1_34.Height
+        RadiusBottomRight: =Image1_34.Height
+        RadiusTopLeft: =Image1_34.Height
+        RadiusTopRight: =Image1_34.Height
+        Width: =50
+        X: =102
+        Y: =393
+        ZIndex: =9
+
+    Rectangle3_231 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Width: =280
+        X: =75
+        Y: =268
+        ZIndex: =10
+
+    Image1_33 As image:
+        Height: =50
+        Image: =Lena
+        RadiusBottomLeft: |
+            =Image1_33.Height
+        RadiusBottomRight: =Image1_33.Height
+        RadiusTopLeft: =Image1_33.Height
+        RadiusTopRight: =Image1_33.Height
+        Width: =50
+        X: =102
+        Y: =293
+        ZIndex: =11
+
+    Icon10_1 As icon.ChevronLeft:
+        Height: =75
+        Icon: =Icon.ChevronLeft
+        Width: =25
+        X: =115
+        Y: =93
+        ZIndex: =12
+
+    Icon11_1 As icon.ChevronRight:
+        Height: =75
+        Icon: =Icon.ChevronRight
+        Width: =25
+        X: =290
+        Y: =93
+        ZIndex: =13
+
+    Rectangle3_9 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Width: =280
+        X: =75
+        Y: =168
+        ZIndex: =14
+
+    Image1_18 As image:
+        Height: =50
+        Image: =Daniel
+        RadiusBottomLeft: |
+            =Image1_18.Height
+        RadiusBottomRight: =Image1_18.Height
+        RadiusTopLeft: =Image1_18.Height
+        RadiusTopRight: =Image1_18.Height
+        Width: =50
+        X: =102
+        Y: =193
+        ZIndex: =15
+
+    Label1_11 As label:
+        Height: =50
+        Size: =10
+        Text: ="Daniel Sturm"
+        Width: =173
+        X: =182
+        Y: =193
+        ZIndex: =16
+
+    Label2_44 As label:
+        Align: =Align.Center
+        Height: =75
+        Text: ="Week 12"
+        X: =140
+        Y: =92
+        ZIndex: =17
+
+    Label3_4 As label:
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: ="Calendar"
+        X: =100
+        Y: =21
+        ZIndex: =18
+
+    Label2_45 As label:
+        Align: =Align.Center
+        Height: =75
+        Text: |-
+            ="Monday
+            21.03."
+        Width: =143
+        X: =355
+        Y: =93
+        ZIndex: =19
+
+    Rectangle3_230 As rectangle:
+        BorderColor: =RGBA(241, 244, 249, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Width: =1001
+        X: =355
+        Y: =168
+        ZIndex: =20
+
+    Rectangle3_233 As rectangle:
+        BorderColor: =RGBA(241, 244, 249, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Width: =1001
+        X: =355
+        Y: =368
+        ZIndex: =21
+
+    Rectangle3_236 As rectangle:
+        BorderColor: =RGBA(241, 244, 249, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Width: =1001
+        X: =355
+        Y: =568
+        ZIndex: =22
+
+    Label2_46 As label:
+        Align: =Align.Center
+        Height: =75
+        Text: |-
+            ="Tuesday
+            22.03."
+        Width: =143
+        X: =498
+        Y: =93
+        ZIndex: =23
+
+    Label2_47 As label:
+        Align: =Align.Center
+        Height: =75
+        Text: |-
+            ="Wednesday
+            23.03."
+        Width: =143
+        X: =641
+        Y: =93
+        ZIndex: =24
+
+    Label2_48 As label:
+        Align: =Align.Center
+        Height: =75
+        Text: |-
+            ="Thursday
+            24.03."
+        Width: =143
+        X: =784
+        Y: =93
+        ZIndex: =25
+
+    Label2_49 As label:
+        Align: =Align.Center
+        Height: =75
+        Text: |-
+            ="Friday
+            25.03."
+        Width: =143
+        X: =927
+        Y: =93
+        ZIndex: =26
+
+    Label2_50 As label:
+        Align: =Align.Center
+        Height: =75
+        Text: |-
+            ="Saturday
+            26.03."
+        Width: =143
+        X: =1070
+        Y: =93
+        ZIndex: =27
+
+    Label2_51 As label:
+        Align: =Align.Center
+        Height: =75
+        Text: |-
+            ="Sunday
+            27.03."
+        Width: =143
+        X: =1213
+        Y: =93
+        ZIndex: =28
+
+    Button2_162 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =652
+        Y: =183
+        ZIndex: =29
+
+    Button2_163 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =795
+        Y: =183
+        ZIndex: =30
+
+    Button2_164 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =938
+        Y: =183
+        ZIndex: =31
+
+    Button2_165 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =1081
+        Y: =183
+        ZIndex: =32
+
+    Button2_166 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =1224
+        Y: =183
+        ZIndex: =33
+
+    Button2_161 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =509
+        Y: =183
+        ZIndex: =34
+
+    Button2_160 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="06:00-14:00"
+        Width: =120
+        X: =366
+        Y: =183
+        ZIndex: =35
+
+    Button2_169 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =652
+        Y: =283
+        ZIndex: =40
+
+    Button2_170 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =795
+        Y: =283
+        ZIndex: =41
+
+    Button2_171 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =938
+        Y: =283
+        ZIndex: =42
+
+    Button2_172 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =1081
+        Y: =283
+        ZIndex: =43
+
+    Button2_173 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =1224
+        Y: =283
+        ZIndex: =44
+
+    Button2_168 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =509
+        Y: =283
+        ZIndex: =45
+
+    Button2_167 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="06:00-14:00"
+        Width: =120
+        X: =366
+        Y: =283
+        ZIndex: =46
+
+    Button2_176 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =652
+        Y: =383
+        ZIndex: =47
+
+    Button2_177 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =795
+        Y: =383
+        ZIndex: =48
+
+    Button2_178 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =938
+        Y: =383
+        ZIndex: =49
+
+    Button2_179 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =1081
+        Y: =383
+        ZIndex: =50
+
+    Button2_180 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =1224
+        Y: =383
+        ZIndex: =51
+
+    Button2_175 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =509
+        Y: =383
+        ZIndex: =52
+
+    Button2_174 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="06:00-14:00"
+        Width: =120
+        X: =366
+        Y: =383
+        ZIndex: =53
+
+    Button2_183 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =652
+        Y: =483
+        ZIndex: =54
+
+    Button2_184 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =795
+        Y: =483
+        ZIndex: =55
+
+    Button2_185 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =938
+        Y: =483
+        ZIndex: =56
+
+    Button2_186 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =1081
+        Y: =483
+        ZIndex: =57
+
+    Button2_187 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =1224
+        Y: =483
+        ZIndex: =58
+
+    Button2_182 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =509
+        Y: =483
+        ZIndex: =59
+
+    Button2_181 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="06:00-14:00"
+        Width: =120
+        X: =366
+        Y: =483
+        ZIndex: =60
+
+    Button2_190 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =652
+        Y: =583
+        ZIndex: =61
+
+    Button2_191 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =795
+        Y: =583
+        ZIndex: =62
+
+    Button2_192 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =938
+        Y: =583
+        ZIndex: =63
+
+    Button2_193 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =1081
+        Y: =583
+        ZIndex: =64
+
+    Button2_194 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =1224
+        Y: =583
+        ZIndex: =65
+
+    Button2_189 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =509
+        Y: =583
+        ZIndex: =66
+
+    Button2_188 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="06:00-14:00"
+        Width: =120
+        X: =366
+        Y: =583
+        ZIndex: =67
+
+    Button2_197 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =652
+        Y: =683
+        ZIndex: =68
+
+    Button2_198 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =795
+        Y: =683
+        ZIndex: =69
+
+    Button2_199 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =938
+        Y: =683
+        ZIndex: =70
+
+    Button2_200 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(153, 160, 196, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="22:00-06:00"
+        Width: =120
+        X: =1081
+        Y: =683
+        ZIndex: =71
+
+    Button2_201 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Day Off"
+        Width: =120
+        X: =1224
+        Y: =683
+        ZIndex: =72
+
+    Button2_196 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="14:00-22:00"
+        Width: =120
+        X: =509
+        Y: =683
+        ZIndex: =73
+
+    Button2_195 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="06:00-14:00"
+        Width: =120
+        X: =366
+        Y: =683
+        ZIndex: =74
+
+    Label1_28 As label:
+        Height: =50
+        Size: =10
+        Text: ="Lena Schmidt"
+        Width: =173
+        X: =182
+        Y: =293
+        ZIndex: =75
+
+    Label1_29 As label:
+        Height: =50
+        Size: =10
+        Text: ="Emma Schumann"
+        Width: =173
+        X: =182
+        Y: =393
+        ZIndex: =76
+
+    Label1_30 As label:
+        Height: =50
+        Size: =10
+        Text: ="Lennard Winkler"
+        Width: =173
+        X: =182
+        Y: =493
+        ZIndex: =77
+
+    Label1_31 As label:
+        Height: =50
+        Size: =10
+        Text: ="Manuela Huber"
+        Width: =173
+        X: =182
+        Y: =593
+        ZIndex: =78
+
+    Label1_32 As label:
+        Height: =50
+        Size: =10
+        Text: ="Maria Schwarz"
+        Width: =173
+        X: =182
+        Y: =693
+        ZIndex: =79
+
+    Rectangle1_26 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =768
+        Width: =75
+        ZIndex: =80
+
+    Icon1_23 As icon.Hamburger:
+        Height: =40
+        Icon: =Icon.Hamburger
+        Width: =40
+        X: =17
+        Y: =21
+        ZIndex: =81
+
+    Icon6_23 As icon.Leave:
+        Height: =40
+        Icon: =Icon.Leave
+        OnSelect: =Navigate('Login Screen', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =709
+        ZIndex: =82
+
+    Icon5_23 As icon.Sync:
+        Height: =40
+        Icon: =Icon.Sync
+        OnSelect: =Navigate('Change Request', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =172
+        ZIndex: =83
+
+    Icon3_25 As icon.Person:
+        Height: =40
+        Icon: =Icon.Person
+        OnSelect: =Navigate(Profile, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =398
+        ZIndex: =84
+
+    Icon18_21 As icon.People:
+        Height: =40
+        Icon: =Icon.People
+        OnSelect: =Navigate(Team, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =248
+        ZIndex: =85
+
+    Icon4_23 As icon.Phone:
+        Height: =40
+        Icon: =Icon.Message
+        OnSelect: =Navigate('Group Chat', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =323
+        ZIndex: =86
+
+    Rectangle2_25 As rectangle:
+        Fill: =RGBA(166, 166, 166, 1)
+        Height: =75
+        Width: =75
+        Y: =81
+        ZIndex: =87
+
+    Icon27_17 As icon.LevelsLayersItems:
+        Height: =40
+        Icon: =Icon.LevelsLayersItems
+        OnSelect: =Navigate('Dashboard Roles', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =472
+        ZIndex: =88
+
+    Icon29_13 As icon.DockCheckProperties:
+        Height: =40
+        Icon: =Icon.DockCheckProperties
+        OnSelect: =Navigate('Planner Shifts Empty', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =553
+        ZIndex: =89
+
+    Icon2_23 As icon.CalendarBlank:
+        Height: =40
+        Icon: =Icon.CalendarBlank
+        OnSelect: =Navigate(Calendar_1, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =99
+        ZIndex: =90
+
+    ComboBox1 As combobox:
+        BorderThickness: =1
+        ChevronBackground: =RGBA(237, 237, 237, 1)
+        ChevronFill: =RGBA(0, 18, 107, 1)
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1.SearchText,"Value1")
+        SelectionColor: =RGBA(0, 18, 107, 1)
+        SelectionFill: =RGBA(0, 18, 107, 1)
+        Width: =263
+        X: =1081
+        Y: =41
+        ZIndex: =91
+
+    ComboBox1_1 As combobox:
+        BorderThickness: =1
+        ChevronBackground: =RGBA(237, 237, 237, 1)
+        ChevronFill: =RGBA(0, 18, 107, 1)
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_1.SearchText,"Value1")
+        SelectionColor: =RGBA(0, 18, 107, 1)
+        SelectionFill: =RGBA(0, 18, 107, 1)
+        Width: =263
+        X: =795
+        Y: =41
+        ZIndex: =92
+
+    Label4_13 As label:
+        Height: =20
+        Size: =10
+        Text: ="Find a person"
+        Width: =260
+        X: =792
+        Y: =21
+        ZIndex: =93
+
+    Label4_14 As label:
+        Height: =20
+        Size: =10
+        Text: ="Filter by week"
+        Width: =260
+        X: =1078
+        Y: =21
+        ZIndex: =94
+
+    Icon1_34 As icon.CancelBadge:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Icon: =Icon.Lock
+        Width: =20
+        X: =55
+        Y: =506
+        ZIndex: =95
+
+    Icon1_35 As icon.CancelBadge:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Icon: =Icon.Lock
+        Width: =20
+        X: =55
+        Y: =590
+        ZIndex: =96
+
+    Label8_5 As label:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =39
+        Text: ="Week 12"
+        X: =1081
+        Y: =41
+        ZIndex: =97
+
+    Label8_6 As label:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =39
+        Text: ="Daniel Sturm"
+        X: =795
+        Y: =41
+        ZIndex: =98
+

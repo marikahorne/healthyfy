@@ -1,0 +1,426 @@
+"'Change Request' As screen":
+
+    Label3_1 As label:
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: ="Change and Leave Requests"
+        Width: =300
+        X: =100
+        Y: =21
+        ZIndex: =1
+
+    Label4 As label:
+        FontWeight: =FontWeight.Semibold
+        Text: ="*Select the type of leave you would like to take"
+        Width: =500
+        X: =100
+        Y: =87
+        ZIndex: =2
+
+    Button2_46 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Vacation"
+        Width: =184
+        X: =100
+        Y: =152
+        ZIndex: =3
+
+    Button2_47 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Sick Leave"
+        Width: =184
+        X: =316
+        Y: =152
+        ZIndex: =4
+
+    Button2_48 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Shift Switch"
+        Width: =184
+        X: =536
+        Y: =152
+        ZIndex: =5
+
+    Icon12 As icon.ToolsWrench:
+        Height: =30
+        Icon: =Icon.ToolsWrench
+        Width: =30
+        X: =547
+        Y: =172
+        ZIndex: =6
+
+    Icon13 As icon.Weather:
+        Height: =30
+        Icon: =Icon.Weather
+        Width: =30
+        X: =117
+        Y: =172
+        ZIndex: =7
+
+    Icon14 As icon.Hospital:
+        Height: =30
+        Icon: =Icon.Hospital
+        Width: =30
+        X: =327
+        Y: =172
+        ZIndex: =8
+
+    Rectangle5 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =2
+        Width: =1250
+        X: =100
+        Y: =247
+        ZIndex: =9
+
+    Label4_1 As label:
+        FontWeight: =FontWeight.Semibold
+        Text: ="Select the dates"
+        Width: =500
+        X: =100
+        Y: =265
+        ZIndex: =10
+
+    DatePicker3 As datepicker:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        Width: =300
+        X: =100
+        Y: =337
+        ZIndex: =11
+
+    DatePicker3_1 As datepicker:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        Width: =300
+        X: =447
+        Y: =337
+        ZIndex: =12
+
+    Rectangle5_1 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =2
+        Width: =1250
+        X: =100
+        Y: =485
+        ZIndex: =13
+
+    Label4_2 As label:
+        Height: =35
+        Size: =10
+        Text: ="*From"
+        Width: =400
+        X: =100
+        Y: =302
+        ZIndex: =14
+
+    Label4_3 As label:
+        Height: =35
+        Size: =10
+        Text: ="*To"
+        Width: =400
+        X: =447
+        Y: =303
+        ZIndex: =15
+
+    Label4_4 As label:
+        FontWeight: =FontWeight.Semibold
+        Text: ="Submit to"
+        Width: =347
+        X: =100
+        Y: =494
+        ZIndex: =16
+
+    Label4_5 As label:
+        FontWeight: =FontWeight.Semibold
+        Size: =12
+        Text: ="Theresa Hohn"
+        Width: =500
+        X: =100
+        Y: =534
+        ZIndex: =17
+
+    Label4_6 As label:
+        FontWeight: =FontWeight.Semibold
+        Text: ="About your leave"
+        Width: =347
+        X: =447
+        Y: =494
+        ZIndex: =18
+
+    Label4_7 As label:
+        Height: =35
+        Size: =10
+        Text: ="*Title"
+        Width: =400
+        X: =447
+        Y: =534
+        ZIndex: =19
+
+    TextInput1 As text:
+        BorderThickness: =1
+        Color: =RGBA(166, 166, 166, 1)
+        Default: =""
+        HintText: ="e.g. shift switch 12.03."
+        Size: =10
+        X: =447
+        Y: =569
+        ZIndex: =20
+
+    Label4_8 As label:
+        Height: =35
+        Size: =10
+        Text: ="Additional information"
+        Width: =400
+        X: =447
+        Y: =609
+        ZIndex: =21
+
+    TextInput1_1 As text:
+        BorderThickness: =1
+        Color: =RGBA(166, 166, 166, 1)
+        Default: =""
+        Height: =105
+        HintText: ="e.g. who you would like to switch with, required documents for sick leave, ..."
+        Mode: =TextMode.MultiLine
+        Size: =10
+        X: =447
+        Y: =644
+        ZIndex: =22
+
+    Label4_9 As label:
+        Color: =RGBA(56, 96, 178, 1)
+        Height: =35
+        Size: =10
+        Text: ="Change"
+        Underline: =true
+        Width: =111
+        X: =336
+        Y: =534
+        ZIndex: =23
+
+    Button2_49 As button:
+        BorderThickness: =1
+        Height: =51
+        OnSelect: =Navigate('Successful Submission', ScreenTransition.Fade)
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: ="Submit Request"
+        Width: =154
+        X: =1032
+        Y: =696
+        ZIndex: =24
+
+    Label4_10 As label:
+        Align: =Align.Right
+        FontWeight: =FontWeight.Semibold
+        Size: =11
+        Text: |-
+            ="New vacation balance: 22 days"
+        Width: =339
+        X: =847
+        Y: =394
+        ZIndex: =25
+
+    Label4_11 As label:
+        Align: =Align.Right
+        FontWeight: =FontWeight.Semibold
+        Size: =11
+        Text: |-
+            ="Current vacation balance: 28 days"
+        Width: =339
+        X: =847
+        Y: =354
+        ZIndex: =26
+
+    Rectangle1_27 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =768
+        Width: =75
+        ZIndex: =27
+
+    Icon1_24 As icon.Hamburger:
+        Height: =40
+        Icon: =Icon.Hamburger
+        Width: =40
+        X: =17
+        Y: =21
+        ZIndex: =28
+
+    Icon2_24 As icon.CalendarBlank:
+        Height: =40
+        Icon: =Icon.CalendarBlank
+        OnSelect: =Navigate(Calendar_1, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =99
+        ZIndex: =29
+
+    Icon6_24 As icon.Leave:
+        Height: =40
+        Icon: =Icon.Leave
+        OnSelect: =Navigate('Login Screen', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =709
+        ZIndex: =30
+
+    Icon3_26 As icon.Person:
+        Height: =40
+        Icon: =Icon.Person
+        OnSelect: =Navigate(Profile, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =398
+        ZIndex: =31
+
+    Icon4_24 As icon.Phone:
+        Height: =40
+        Icon: =Icon.Message
+        OnSelect: =Navigate('Group Chat', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =323
+        ZIndex: =32
+
+    Rectangle2_26 As rectangle:
+        Fill: =RGBA(166, 166, 166, 1)
+        Height: =75
+        Width: =75
+        Y: =156
+        ZIndex: =33
+
+    Icon27_18 As icon.LevelsLayersItems:
+        Height: =40
+        Icon: =Icon.LevelsLayersItems
+        OnSelect: =Navigate('Dashboard Roles', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =472
+        ZIndex: =34
+
+    Icon29_14 As icon.DockCheckProperties:
+        Height: =40
+        Icon: =Icon.DockCheckProperties
+        OnSelect: =Navigate('Planner Shifts Empty', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =553
+        ZIndex: =35
+
+    Icon18_22 As icon.People:
+        Height: =40
+        Icon: =Icon.People
+        OnSelect: =Navigate(Team, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =248
+        ZIndex: =36
+
+    Icon5_24 As icon.Sync:
+        Height: =40
+        Icon: =Icon.Sync
+        OnSelect: =Navigate('Change Request', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =172
+        ZIndex: =37
+
+    ComboBox1_7 As combobox:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        ChevronBackground: =RGBA(237, 237, 237, 1)
+        Color: =RGBA(166, 166, 166, 1)
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_7.SearchText,"Value1")
+        SelectionColor: =RGBA(56, 96, 178, 1)
+        SelectionFill: =RGBA(255, 255, 255, 1)
+        Width: =300
+        X: =100
+        Y: =420
+        ZIndex: =38
+
+    ComboBox1_8 As combobox:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        ChevronBackground: =RGBA(237, 237, 237, 1)
+        Color: =RGBA(166, 166, 166, 1)
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_8.SearchText,"Value1")
+        SelectionColor: =RGBA(56, 96, 178, 1)
+        SelectionFill: =RGBA(255, 255, 255, 1)
+        Width: =300
+        X: =447
+        Y: =420
+        ZIndex: =39
+
+    Label4_20 As label:
+        Height: =35
+        Size: =10
+        Text: ="Select Original Shift"
+        Width: =400
+        X: =100
+        Y: =384
+        ZIndex: =40
+
+    Label4_21 As label:
+        Height: =35
+        Size: =10
+        Text: ="Select New Shift"
+        Width: =400
+        X: =447
+        Y: =385
+        ZIndex: =41
+
+    Icon1_30 As icon.CancelBadge:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Icon: =Icon.Lock
+        Width: =20
+        X: =55
+        Y: =506
+        ZIndex: =42
+
+    Icon1_31 As icon.CancelBadge:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Icon: =Icon.Lock
+        Width: =20
+        X: =55
+        Y: =590
+        ZIndex: =43
+
+    Icon3 As icon.Edit:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =30
+        Icon: =Icon.AddDocument
+        Width: =30
+        X: =768
+        Y: =644
+        ZIndex: =44
+

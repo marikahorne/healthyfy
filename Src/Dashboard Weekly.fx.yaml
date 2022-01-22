@@ -1,0 +1,243 @@
+"'Dashboard Weekly' As screen":
+
+    Rectangle1_24 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =768
+        Width: =75
+        ZIndex: =18
+
+    Icon1_21 As icon.Hamburger:
+        Height: =40
+        Icon: =Icon.Hamburger
+        Width: =40
+        X: =17
+        Y: =21
+        ZIndex: =19
+
+    Icon2_21 As icon.CalendarBlank:
+        Height: =40
+        Icon: =Icon.CalendarBlank
+        OnSelect: =Navigate(Calendar_1, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =99
+        ZIndex: =20
+
+    Icon6_21 As icon.Leave:
+        Height: =40
+        Icon: =Icon.Leave
+        OnSelect: =Navigate('Login Screen', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =709
+        ZIndex: =21
+
+    Icon3_23 As icon.Person:
+        Height: =40
+        Icon: =Icon.Person
+        OnSelect: =Navigate(Profile, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =398
+        ZIndex: =22
+
+    Icon4_21 As icon.Phone:
+        Height: =40
+        Icon: =Icon.Message
+        OnSelect: =Navigate('Group Chat', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =323
+        ZIndex: =23
+
+    Rectangle2_23 As rectangle:
+        Fill: =RGBA(166, 166, 166, 1)
+        Height: =75
+        Width: =75
+        Y: =454
+        ZIndex: =24
+
+    Icon29_11 As icon.DockCheckProperties:
+        Height: =40
+        Icon: =Icon.DockCheckProperties
+        OnSelect: =Navigate('Planner Shifts Empty', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =553
+        ZIndex: =25
+
+    Icon5_21 As icon.Sync:
+        Height: =40
+        Icon: =Icon.Sync
+        OnSelect: =Navigate('Change Request', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =172
+        ZIndex: =26
+
+    Icon18_19 As icon.People:
+        Height: =40
+        Icon: =Icon.People
+        OnSelect: =Navigate(Team, ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =248
+        ZIndex: =27
+
+    Icon27_15 As icon.LevelsLayersItems:
+        Height: =40
+        Icon: =Icon.LevelsLayersItems
+        OnSelect: =Navigate('Dashboard Roles', ScreenTransition.Fade)
+        Width: =40
+        X: =17
+        Y: =472
+        ZIndex: =28
+
+    Icon1_2 As icon.CancelBadge:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Icon: =Icon.Lock
+        Width: =20
+        X: =55
+        Y: =506
+        ZIndex: =29
+
+    Icon1_3 As icon.CancelBadge:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Icon: =Icon.Lock
+        Width: =20
+        X: =55
+        Y: =590
+        ZIndex: =30
+
+    ComboBox1_2 As combobox:
+        BorderThickness: =1
+        ChevronBackground: =RGBA(237, 237, 237, 1)
+        ChevronFill: =RGBA(0, 18, 107, 1)
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_2.SearchText,"Value1")
+        SelectionColor: =RGBA(0, 18, 107, 1)
+        SelectionFill: =RGBA(0, 18, 107, 1)
+        Width: =263
+        X: =748
+        Y: =132
+        ZIndex: =31
+
+    ComboBox1_4 As combobox:
+        BorderThickness: =1
+        ChevronBackground: =RGBA(237, 237, 237, 1)
+        ChevronFill: =RGBA(0, 18, 107, 1)
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_4.SearchText,"Value1")
+        SelectionColor: =RGBA(0, 18, 107, 1)
+        SelectionFill: =RGBA(0, 18, 107, 1)
+        Width: =263
+        X: =462
+        Y: =132
+        ZIndex: =32
+
+    Label4_16 As label:
+        Height: =20
+        Size: =10
+        Text: ="Filter by department"
+        Width: =260
+        X: =459
+        Y: =112
+        ZIndex: =33
+
+    Label4_17 As label:
+        Height: =20
+        Size: =10
+        Text: ="Filter by week"
+        Width: =260
+        X: =745
+        Y: =112
+        ZIndex: =34
+
+    Image3 As image:
+        Height: =558
+        Image: ='Monthly Hours Worked'
+        Width: =963
+        X: =254
+        Y: =191
+        ZIndex: =35
+
+    Label8_1 As label:
+        Fill: =RGBA(255, 255, 255, 1)
+        Text: ="Neurology"
+        X: =462
+        Y: =132
+        ZIndex: =36
+
+    Label8_2 As label:
+        Fill: =RGBA(255, 255, 255, 1)
+        Text: ="Week 12"
+        X: =748
+        Y: =132
+        ZIndex: =37
+
+    Button6_21 As button:
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =44
+        OnSelect: =Navigate('Dashboard Daily', ScreenTransition.Fade)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =16
+        Text: ="Daily"
+        Width: =150
+        X: =569
+        Y: =41
+        ZIndex: =38
+
+    Button6_22 As button:
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =44
+        OnSelect: =Navigate('Dashboard Weekly', ScreenTransition.Fade)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =16
+        Text: ="Weekly"
+        Width: =150
+        X: =751
+        Y: =41
+        ZIndex: =39
+
+    Button6_23 As button:
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =44
+        OnSelect: =Navigate('Dashboard Monthly', ScreenTransition.Fade)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =16
+        Text: ="Monthly"
+        Width: =150
+        X: =936
+        Y: =41
+        ZIndex: =40
+
+    Button6_24 As button:
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =44
+        OnSelect: =Navigate('Dashboard Roles', ScreenTransition.Fade)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =16
+        Text: ="Roles"
+        Width: =150
+        X: =373
+        Y: =41
+        ZIndex: =41
+

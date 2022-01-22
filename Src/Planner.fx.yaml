@@ -1,0 +1,2394 @@
+Planner As screen:
+
+    Rectangle1_7 As rectangle:
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =768
+        Width: =75
+        ZIndex: =1
+
+    Icon1_7 As icon.Hamburger:
+        Height: =40
+        Icon: =Icon.Hamburger
+        Width: =40
+        X: =17
+        Y: =21
+        ZIndex: =2
+
+    Icon2_7 As icon.CalendarBlank:
+        Height: =40
+        Icon: =Icon.CalendarBlank
+        Width: =40
+        X: =17
+        Y: =99
+        ZIndex: =3
+
+    Icon6_7 As icon.Leave:
+        Height: =40
+        Icon: =Icon.Leave
+        Width: =40
+        X: =17
+        Y: =709
+        ZIndex: =4
+
+    Icon5_7 As icon.Sync:
+        Height: =40
+        Icon: =Icon.Sync
+        Width: =40
+        X: =17
+        Y: =172
+        ZIndex: =5
+
+    Icon3_7 As icon.Person:
+        Height: =40
+        Icon: =Icon.Person
+        Width: =40
+        X: =17
+        Y: =398
+        ZIndex: =6
+
+    Icon18_4 As icon.People:
+        Height: =40
+        Icon: =Icon.People
+        Width: =40
+        X: =17
+        Y: =248
+        ZIndex: =7
+
+    Icon4_7 As icon.Phone:
+        Height: =40
+        Icon: =Icon.Phone
+        Width: =40
+        X: =17
+        Y: =323
+        ZIndex: =8
+
+    Rectangle2_9 As rectangle:
+        Fill: =RGBA(166, 166, 166, 1)
+        Height: =75
+        Width: =75
+        Y: =535
+        ZIndex: =9
+
+    Icon27_1 As icon.LevelsLayersItems:
+        Height: =40
+        Icon: =Icon.LevelsLayersItems
+        Width: =40
+        X: =17
+        Y: =472
+        ZIndex: =10
+
+    Icon29 As icon.DockCheckProperties:
+        Height: =40
+        Icon: =Icon.DockCheckProperties
+        Width: =40
+        X: =17
+        Y: =553
+        ZIndex: =11
+
+    Label3_5 As label:
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: ="Scheduler"
+        Width: =300
+        X: =104
+        Y: =21
+        ZIndex: =12
+
+    Rectangle3_10 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Width: =182
+        X: =91
+        Y: =160
+        ZIndex: =13
+
+    Image1_19 As image:
+        Height: =50
+        RadiusBottomLeft: |
+            =Image1_19.Height
+        RadiusBottomRight: =Image1_19.Height
+        RadiusTopLeft: =Image1_19.Height
+        RadiusTopRight: =Image1_19.Height
+        Width: =50
+        X: =103
+        Y: =172
+        ZIndex: =14
+
+    Label1_12 As label:
+        Height: =50
+        Size: =10
+        Text: |-
+            ="Daniel Sturm
+            25 / 40
+            "
+        Width: =107
+        X: =166
+        Y: =172
+        ZIndex: =15
+
+    Rectangle3_11 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Width: =182
+        X: =91
+        Y: =235
+        ZIndex: =16
+
+    Image1_20 As image:
+        Height: =50
+        RadiusBottomLeft: |
+            =Image1_20.Height
+        RadiusBottomRight: =Image1_20.Height
+        RadiusTopLeft: =Image1_20.Height
+        RadiusTopRight: =Image1_20.Height
+        Width: =50
+        X: =103
+        Y: =247
+        ZIndex: =17
+
+    Label1_13 As label:
+        Height: =50
+        Size: =10
+        Text: |-
+            ="Daniel Sturm
+            25 / 40
+            "
+        Width: =107
+        X: =166
+        Y: =247
+        ZIndex: =18
+
+    Rectangle3_12 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Width: =182
+        X: =91
+        Y: =310
+        ZIndex: =19
+
+    Image1_21 As image:
+        Height: =50
+        RadiusBottomLeft: |
+            =Image1_21.Height
+        RadiusBottomRight: =Image1_21.Height
+        RadiusTopLeft: =Image1_21.Height
+        RadiusTopRight: =Image1_21.Height
+        Width: =50
+        X: =103
+        Y: =322
+        ZIndex: =20
+
+    Label1_14 As label:
+        Height: =50
+        Size: =10
+        Text: |-
+            ="Daniel Sturm
+            25 / 40
+            "
+        Width: =107
+        X: =166
+        Y: =322
+        ZIndex: =21
+
+    Rectangle3_13 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Width: =182
+        X: =91
+        Y: =385
+        ZIndex: =22
+
+    Image1_22 As image:
+        Height: =50
+        RadiusBottomLeft: |
+            =Image1_22.Height
+        RadiusBottomRight: =Image1_22.Height
+        RadiusTopLeft: =Image1_22.Height
+        RadiusTopRight: =Image1_22.Height
+        Width: =50
+        X: =103
+        Y: =397
+        ZIndex: =23
+
+    Label1_15 As label:
+        Height: =50
+        Size: =10
+        Text: |-
+            ="Daniel Sturm
+            25 / 40
+            "
+        Width: =107
+        X: =166
+        Y: =397
+        ZIndex: =24
+
+    Rectangle3_14 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Width: =182
+        X: =91
+        Y: =460
+        ZIndex: =25
+
+    Image1_23 As image:
+        Height: =50
+        RadiusBottomLeft: |
+            =Image1_23.Height
+        RadiusBottomRight: =Image1_23.Height
+        RadiusTopLeft: =Image1_23.Height
+        RadiusTopRight: =Image1_23.Height
+        Width: =50
+        X: =103
+        Y: =472
+        ZIndex: =26
+
+    Label1_16 As label:
+        Height: =50
+        Size: =10
+        Text: |-
+            ="Daniel Sturm
+            25 / 40
+            "
+        Width: =107
+        X: =166
+        Y: =472
+        ZIndex: =27
+
+    Rectangle3_15 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Width: =182
+        X: =91
+        Y: =535
+        ZIndex: =28
+
+    Image1_24 As image:
+        Height: =50
+        RadiusBottomLeft: |
+            =Image1_24.Height
+        RadiusBottomRight: =Image1_24.Height
+        RadiusTopLeft: =Image1_24.Height
+        RadiusTopRight: =Image1_24.Height
+        Width: =50
+        X: =103
+        Y: =547
+        ZIndex: =29
+
+    Label1_17 As label:
+        Height: =50
+        Size: =10
+        Text: |-
+            ="Daniel Sturm
+            25 / 40
+            "
+        Width: =107
+        X: =166
+        Y: =547
+        ZIndex: =30
+
+    Rectangle3_16 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Width: =182
+        X: =91
+        Y: =610
+        ZIndex: =31
+
+    Image1_25 As image:
+        Height: =50
+        RadiusBottomLeft: |
+            =Image1_25.Height
+        RadiusBottomRight: =Image1_25.Height
+        RadiusTopLeft: =Image1_25.Height
+        RadiusTopRight: =Image1_25.Height
+        Width: =50
+        X: =103
+        Y: =622
+        ZIndex: =32
+
+    Label1_18 As label:
+        Height: =50
+        Size: =10
+        Text: |-
+            ="Daniel Sturm
+            25 / 40
+            "
+        Width: =107
+        X: =166
+        Y: =622
+        ZIndex: =33
+
+    Rectangle3_17 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Width: =182
+        X: =91
+        Y: =685
+        ZIndex: =34
+
+    Icon34 As icon.Add:
+        Height: =25
+        Icon: =Icon.Add
+        Width: =25
+        X: =128
+        Y: =728
+        ZIndex: =35
+
+    Icon3_8 As icon.Person:
+        Height: =40
+        Icon: =Icon.Person
+        Width: =40
+        X: =103
+        Y: =701
+        ZIndex: =36
+
+    Label1_19 As label:
+        Height: =50
+        Size: =10
+        Text: ="Add employee"
+        Width: =107
+        X: =166
+        Y: =697
+        ZIndex: =37
+
+    Rectangle3_18 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =75
+        Width: =1232
+        X: =91
+        Y: =85
+        ZIndex: =38
+
+    Rectangle3_19 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =273
+        Y: =160
+        ZIndex: =39
+
+    Rectangle3_20 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =273
+        Y: =235
+        ZIndex: =40
+
+    Rectangle3_21 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =273
+        Y: =310
+        ZIndex: =41
+
+    Rectangle3_22 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =273
+        Y: =385
+        ZIndex: =42
+
+    Rectangle3_23 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =273
+        Y: =460
+        ZIndex: =43
+
+    Rectangle3_24 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =273
+        Y: =535
+        ZIndex: =44
+
+    Rectangle3_25 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =273
+        Y: =610
+        ZIndex: =45
+
+    Rectangle3_26 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =273
+        Y: =685
+        ZIndex: =46
+
+    Rectangle3_27 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =423
+        Y: =160
+        ZIndex: =47
+
+    Rectangle3_28 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =423
+        Y: =235
+        ZIndex: =48
+
+    Rectangle3_29 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =423
+        Y: =310
+        ZIndex: =49
+
+    Rectangle3_30 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =423
+        Y: =385
+        ZIndex: =50
+
+    Rectangle3_31 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =423
+        Y: =460
+        ZIndex: =51
+
+    Rectangle3_32 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =423
+        Y: =535
+        ZIndex: =52
+
+    Rectangle3_33 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =423
+        Y: =610
+        ZIndex: =53
+
+    Rectangle3_34 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =423
+        Y: =685
+        ZIndex: =54
+
+    Rectangle3_35 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =573
+        Y: =160
+        ZIndex: =55
+
+    Rectangle3_36 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =573
+        Y: =235
+        ZIndex: =56
+
+    Rectangle3_37 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =573
+        Y: =310
+        ZIndex: =57
+
+    Rectangle3_38 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =573
+        Y: =385
+        ZIndex: =58
+
+    Rectangle3_39 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =573
+        Y: =460
+        ZIndex: =59
+
+    Rectangle3_40 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =573
+        Y: =535
+        ZIndex: =60
+
+    Rectangle3_41 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =573
+        Y: =610
+        ZIndex: =61
+
+    Rectangle3_42 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =573
+        Y: =685
+        ZIndex: =62
+
+    Rectangle3_43 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =723
+        Y: =160
+        ZIndex: =63
+
+    Rectangle3_44 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =723
+        Y: =235
+        ZIndex: =64
+
+    Rectangle3_45 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =723
+        Y: =310
+        ZIndex: =65
+
+    Rectangle3_46 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =723
+        Y: =385
+        ZIndex: =66
+
+    Rectangle3_47 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =723
+        Y: =460
+        ZIndex: =67
+
+    Rectangle3_48 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =723
+        Y: =535
+        ZIndex: =68
+
+    Rectangle3_49 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =723
+        Y: =610
+        ZIndex: =69
+
+    Rectangle3_50 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =723
+        Y: =685
+        ZIndex: =70
+
+    Rectangle3_51 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =873
+        Y: =160
+        ZIndex: =71
+
+    Rectangle3_52 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =873
+        Y: =235
+        ZIndex: =72
+
+    Rectangle3_53 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =873
+        Y: =310
+        ZIndex: =73
+
+    Rectangle3_54 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =873
+        Y: =385
+        ZIndex: =74
+
+    Rectangle3_55 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =873
+        Y: =460
+        ZIndex: =75
+
+    Rectangle3_56 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =873
+        Y: =535
+        ZIndex: =76
+
+    Rectangle3_57 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =873
+        Y: =610
+        ZIndex: =77
+
+    Rectangle3_58 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =873
+        Y: =685
+        ZIndex: =78
+
+    Rectangle3_59 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1023
+        Y: =160
+        ZIndex: =79
+
+    Rectangle3_60 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1023
+        Y: =235
+        ZIndex: =80
+
+    Rectangle3_61 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1023
+        Y: =310
+        ZIndex: =81
+
+    Rectangle3_62 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1023
+        Y: =385
+        ZIndex: =82
+
+    Rectangle3_63 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1023
+        Y: =460
+        ZIndex: =83
+
+    Rectangle3_64 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1023
+        Y: =535
+        ZIndex: =84
+
+    Rectangle3_65 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1023
+        Y: =610
+        ZIndex: =85
+
+    Rectangle3_66 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1023
+        Y: =685
+        ZIndex: =86
+
+    Rectangle3_67 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1173
+        Y: =160
+        ZIndex: =87
+
+    Rectangle3_68 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1173
+        Y: =235
+        ZIndex: =88
+
+    Rectangle3_69 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1173
+        Y: =310
+        ZIndex: =89
+
+    Rectangle3_70 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1173
+        Y: =385
+        ZIndex: =90
+
+    Rectangle3_71 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1173
+        Y: =460
+        ZIndex: =91
+
+    Rectangle3_72 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1173
+        Y: =535
+        ZIndex: =92
+
+    Rectangle3_73 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1173
+        Y: =610
+        ZIndex: =93
+
+    Rectangle3_74 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        X: =1173
+        Y: =685
+        ZIndex: =94
+
+    Label18 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Text: ="Mar 21 - Mar 27"
+        X: =107
+        Y: =102
+        ZIndex: =95
+
+    Label2_8 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Monday
+            21.03."
+        X: =273
+        Y: =85
+        ZIndex: =96
+
+    Label2_9 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Tuesday
+            22.03."
+        X: =423
+        Y: =85
+        ZIndex: =97
+
+    Label2_10 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Wednesday
+            23.03."
+        X: =573
+        Y: =85
+        ZIndex: =98
+
+    Label2_11 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Thursday
+            24.03."
+        X: =723
+        Y: =85
+        ZIndex: =99
+
+    Label2_12 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Friday
+            25.03."
+        X: =873
+        Y: =85
+        ZIndex: =100
+
+    Label2_13 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Saturday
+            26.03."
+        X: =1023
+        Y: =85
+        ZIndex: =101
+
+    Label2_14 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        FontWeight: =FontWeight.Lighter
+        Height: =75
+        Size: =10
+        Text: |-
+            ="Sunday
+            27.03."
+        X: =1173
+        Y: =85
+        ZIndex: =102
+
+    Button6 As button:
+        Fill: =RGBA(204, 208, 225, 1)
+        FontWeight: =FontWeight.Normal
+        Height: =44
+        Size: =13
+        Text: ="Auto-Assign"
+        Width: =150
+        X: =723
+        Y: =28
+        ZIndex: =103
+
+    Rectangle3_75 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =44
+        Width: =130
+        X: =883
+        Y: =28
+        ZIndex: =104
+
+    Rectangle3_76 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =44
+        Width: =130
+        X: =1033
+        Y: =28
+        ZIndex: =105
+
+    Rectangle3_77 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =44
+        Width: =130
+        X: =1183
+        Y: =28
+        ZIndex: =106
+
+    Button2_51 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1038
+        Y: =172
+        ZIndex: =107
+
+    Button2_52 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =738
+        Y: =172
+        ZIndex: =108
+
+    Button2_53 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(253, 222, 207, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Afternoon
+            Shift"
+        Width: =120
+        X: =588
+        Y: =172
+        ZIndex: =109
+
+    Button2_54 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =288
+        Y: =172
+        ZIndex: =110
+
+    Button2_55 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =438
+        Y: =172
+        ZIndex: =111
+
+    Button2_56 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =888
+        Y: =172
+        ZIndex: =112
+
+    Button2_57 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1188
+        Y: =172
+        ZIndex: =113
+
+    Icon35 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =389
+        Y: =190
+        ZIndex: =114
+
+    Icon35_1 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =537
+        Y: =190
+        ZIndex: =115
+
+    Icon35_2 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =689
+        Y: =190
+        ZIndex: =116
+
+    Icon35_3 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =837
+        Y: =189
+        ZIndex: =117
+
+    Icon35_4 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =989
+        Y: =190
+        ZIndex: =118
+
+    Icon35_5 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1139
+        Y: =189
+        ZIndex: =119
+
+    Icon35_6 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1290
+        Y: =189
+        ZIndex: =120
+
+    Button2_58 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1038
+        Y: =250
+        ZIndex: =121
+
+    Button2_59 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =738
+        Y: =250
+        ZIndex: =122
+
+    Button2_60 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(253, 222, 207, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Afternoon
+            Shift"
+        Width: =120
+        X: =588
+        Y: =250
+        ZIndex: =123
+
+    Button2_61 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =288
+        Y: =250
+        ZIndex: =124
+
+    Button2_62 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =438
+        Y: =250
+        ZIndex: =125
+
+    Button2_63 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =888
+        Y: =250
+        ZIndex: =126
+
+    Button2_64 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1188
+        Y: =250
+        ZIndex: =127
+
+    Icon35_7 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =389
+        Y: =268
+        ZIndex: =128
+
+    Icon35_8 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =537
+        Y: =268
+        ZIndex: =129
+
+    Icon35_9 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =689
+        Y: =268
+        ZIndex: =130
+
+    Icon35_10 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =837
+        Y: =267
+        ZIndex: =131
+
+    Icon35_11 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =989
+        Y: =268
+        ZIndex: =132
+
+    Icon35_12 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1139
+        Y: =267
+        ZIndex: =133
+
+    Icon35_13 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1290
+        Y: =267
+        ZIndex: =134
+
+    Button2_65 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1038
+        Y: =322
+        ZIndex: =135
+
+    Button2_66 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =738
+        Y: =322
+        ZIndex: =136
+
+    Button2_67 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(253, 222, 207, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Afternoon
+            Shift"
+        Width: =120
+        X: =588
+        Y: =322
+        ZIndex: =137
+
+    Button2_68 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =288
+        Y: =322
+        ZIndex: =138
+
+    Button2_69 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =438
+        Y: =322
+        ZIndex: =139
+
+    Button2_70 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =888
+        Y: =322
+        ZIndex: =140
+
+    Button2_71 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1188
+        Y: =322
+        ZIndex: =141
+
+    Icon35_14 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =389
+        Y: =340
+        ZIndex: =142
+
+    Icon35_15 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =537
+        Y: =340
+        ZIndex: =143
+
+    Icon35_16 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =689
+        Y: =340
+        ZIndex: =144
+
+    Icon35_17 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =837
+        Y: =339
+        ZIndex: =145
+
+    Icon35_18 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =989
+        Y: =340
+        ZIndex: =146
+
+    Icon35_19 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1139
+        Y: =339
+        ZIndex: =147
+
+    Icon35_20 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1290
+        Y: =339
+        ZIndex: =148
+
+    Button2_72 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1038
+        Y: =399
+        ZIndex: =149
+
+    Button2_73 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =738
+        Y: =399
+        ZIndex: =150
+
+    Button2_74 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(253, 222, 207, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Afternoon
+            Shift"
+        Width: =120
+        X: =588
+        Y: =399
+        ZIndex: =151
+
+    Button2_75 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =288
+        Y: =399
+        ZIndex: =152
+
+    Button2_76 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =438
+        Y: =399
+        ZIndex: =153
+
+    Button2_77 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =888
+        Y: =399
+        ZIndex: =154
+
+    Button2_78 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1188
+        Y: =399
+        ZIndex: =155
+
+    Icon35_21 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =389
+        Y: =417
+        ZIndex: =156
+
+    Icon35_22 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =537
+        Y: =417
+        ZIndex: =157
+
+    Icon35_23 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =689
+        Y: =417
+        ZIndex: =158
+
+    Icon35_24 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =837
+        Y: =416
+        ZIndex: =159
+
+    Icon35_25 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =989
+        Y: =417
+        ZIndex: =160
+
+    Icon35_26 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1139
+        Y: =416
+        ZIndex: =161
+
+    Icon35_27 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1290
+        Y: =416
+        ZIndex: =162
+
+    Button2_79 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1038
+        Y: =471
+        ZIndex: =163
+
+    Button2_80 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =738
+        Y: =471
+        ZIndex: =164
+
+    Button2_81 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(253, 222, 207, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Afternoon
+            Shift"
+        Width: =120
+        X: =588
+        Y: =471
+        ZIndex: =165
+
+    Button2_82 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =288
+        Y: =471
+        ZIndex: =166
+
+    Button2_83 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =438
+        Y: =471
+        ZIndex: =167
+
+    Button2_84 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =888
+        Y: =471
+        ZIndex: =168
+
+    Button2_85 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1188
+        Y: =471
+        ZIndex: =169
+
+    Icon35_28 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =389
+        Y: =489
+        ZIndex: =170
+
+    Icon35_29 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =537
+        Y: =489
+        ZIndex: =171
+
+    Icon35_30 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =689
+        Y: =489
+        ZIndex: =172
+
+    Icon35_31 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =837
+        Y: =488
+        ZIndex: =173
+
+    Icon35_32 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =989
+        Y: =489
+        ZIndex: =174
+
+    Icon35_33 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1139
+        Y: =488
+        ZIndex: =175
+
+    Icon35_34 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1290
+        Y: =488
+        ZIndex: =176
+
+    Button2_86 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1038
+        Y: =549
+        ZIndex: =177
+
+    Button2_87 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =738
+        Y: =549
+        ZIndex: =178
+
+    Button2_88 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(253, 222, 207, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Afternoon
+            Shift"
+        Width: =120
+        X: =588
+        Y: =549
+        ZIndex: =179
+
+    Button2_89 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =288
+        Y: =549
+        ZIndex: =180
+
+    Button2_90 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =438
+        Y: =549
+        ZIndex: =181
+
+    Button2_91 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =888
+        Y: =549
+        ZIndex: =182
+
+    Button2_92 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1188
+        Y: =549
+        ZIndex: =183
+
+    Icon35_35 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =389
+        Y: =567
+        ZIndex: =184
+
+    Icon35_36 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =537
+        Y: =567
+        ZIndex: =185
+
+    Icon35_37 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =689
+        Y: =567
+        ZIndex: =186
+
+    Icon35_38 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =837
+        Y: =566
+        ZIndex: =187
+
+    Icon35_39 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =989
+        Y: =567
+        ZIndex: =188
+
+    Icon35_40 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1139
+        Y: =566
+        ZIndex: =189
+
+    Icon35_41 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1290
+        Y: =566
+        ZIndex: =190
+
+    Button2_93 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1038
+        Y: =623
+        ZIndex: =191
+
+    Button2_94 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =738
+        Y: =623
+        ZIndex: =192
+
+    Button2_95 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(253, 222, 207, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Afternoon
+            Shift"
+        Width: =120
+        X: =588
+        Y: =623
+        ZIndex: =193
+
+    Button2_96 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =288
+        Y: =623
+        ZIndex: =194
+
+    Button2_97 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Morning
+            Shift"
+        Width: =120
+        X: =438
+        Y: =623
+        ZIndex: =195
+
+    Button2_98 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Evening
+            Shift"
+        Width: =120
+        X: =888
+        Y: =623
+        ZIndex: =196
+
+    Button2_99 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =50
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =12
+        Text: |-
+            ="Day
+            Off"
+        Width: =120
+        X: =1188
+        Y: =623
+        ZIndex: =197
+
+    Icon35_42 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =389
+        Y: =641
+        ZIndex: =198
+
+    Icon35_43 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =537
+        Y: =641
+        ZIndex: =199
+
+    Icon35_44 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =689
+        Y: =641
+        ZIndex: =200
+
+    Icon35_45 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =837
+        Y: =640
+        ZIndex: =201
+
+    Icon35_46 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =989
+        Y: =641
+        ZIndex: =202
+
+    Icon35_47 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1139
+        Y: =640
+        ZIndex: =203
+
+    Icon35_48 As icon.ChevronDown:
+        Height: =15
+        Icon: =Icon.ChevronDown
+        Width: =15
+        X: =1290
+        Y: =640
+        ZIndex: =204
+
+    Label2_15 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(237, 237, 237, 1)
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =44
+        Size: =12
+        Text: ="Today"
+        Width: =130
+        X: =883
+        Y: =28
+        ZIndex: =219
+
+    Label2_16 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(237, 237, 237, 1)
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =44
+        Size: =12
+        Text: ="Week"
+        Width: =94
+        X: =1183
+        Y: =28
+        ZIndex: =220
+
+    Icon36 As icon.CalendarBlank:
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =40
+        Icon: =Icon.CalendarBlank
+        Width: =30
+        X: =1083
+        Y: =32
+        ZIndex: =221
+
+    Rectangle3_78 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =44
+        Width: =40
+        X: =1033
+        Y: =28
+        ZIndex: =222
+
+    Rectangle3_79 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =44
+        Width: =40
+        X: =1123
+        Y: =28
+        ZIndex: =223
+
+    Icon37 As icon.ChevronLeft:
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =20
+        Icon: =Icon.ChevronLeft
+        Width: =20
+        X: =1043
+        Y: =40
+        ZIndex: =224
+
+    Icon38 As icon.ChevronRight:
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =20
+        Icon: =Icon.ChevronRight
+        Width: =20
+        X: =1133
+        Y: =40
+        ZIndex: =225
+
+    Rectangle3_80 As rectangle:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =44
+        Width: =40
+        X: =1277
+        Y: =28
+        ZIndex: =226
+
+    Icon35_56 As icon.ChevronDown:
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =20
+        Icon: =Icon.ChevronDown
+        Width: =20
+        X: =1287
+        Y: =40
+        ZIndex: =227
+
